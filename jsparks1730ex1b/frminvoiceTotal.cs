@@ -24,13 +24,24 @@ namespace jsparks1730ex1b
 
         private void BtnCalculate_Click(object sender, EventArgs e)
         {
-            //txtTotal.Text = "10";
-            //txtTotal.ReadOnly = false;
+
+
+            txtDiscountAmount.Text =
+            (Convert.ToDecimal(txtSubtotal.Text)
+            * Convert.ToDecimal(txtDiscountPercent.Text) / 100).ToString("0.00");
+            txtTotal.Text =
+                (Convert.ToDecimal(txtSubtotal.Text)
+            * Convert.ToDecimal(txtDiscountAmount.Text) / 100).ToString("0.00");
         }
 
         private void BtnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void TxtSubtotal_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

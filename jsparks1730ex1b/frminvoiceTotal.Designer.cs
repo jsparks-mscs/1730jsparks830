@@ -106,15 +106,15 @@
             this.txtSubtotal.Name = "txtSubtotal";
             this.txtSubtotal.Size = new System.Drawing.Size(100, 20);
             this.txtSubtotal.TabIndex = 1;
+            this.txtSubtotal.TextChanged += new System.EventHandler(this.TxtSubtotal_TextChanged);
             // 
             // txtDiscountPercent
             // 
             this.txtDiscountPercent.Location = new System.Drawing.Point(244, 71);
             this.txtDiscountPercent.Name = "txtDiscountPercent";
-            this.txtDiscountPercent.ReadOnly = true;
             this.txtDiscountPercent.Size = new System.Drawing.Size(100, 20);
             this.txtDiscountPercent.TabIndex = 3;
-            this.txtDiscountPercent.TabStop = false;
+            this.txtDiscountPercent.Text = "5";
             // 
             // txtDiscountAmount
             // 
