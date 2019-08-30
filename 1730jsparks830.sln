@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jsparks1730ex1b", "jsparks1730ex1b\jsparks1730ex1b.csproj", "{ED5C8ACB-1EB1-45F8-B32F-1A8F471E073C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5C8ACB-1EB1-45F8-B32F-1A8F471E073C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5C8ACB-1EB1-45F8-B32F-1A8F471E073C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5C8ACB-1EB1-45F8-B32F-1A8F471E073C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5C8ACB-1EB1-45F8-B32F-1A8F471E073C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CA7ADA0-14A5-47AD-9E6C-B833EEC16257}
+	EndGlobalSection
+EndGlobal
